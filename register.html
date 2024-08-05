@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Register User</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,7 +21,7 @@
 
       <div class="flex items-center justify-center min-h-screen bg-gray-100">
         <div class="bg-white p-8 rounded-2xl shadow-md w-96">
-          <form>
+          <form id="form">
             <div class="mb-4">
              
                 <input type="text" id="first-name" class="placeholder-blue-500 w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="First Name">
@@ -46,7 +46,7 @@
 
             <div class=" mt-2 flex justify-center">
 
-              <button class="btn btn-sm btn-primary text-white ">Resgister</button>
+              <button id="register" class="btn btn-sm btn-primary text-white ">Resgister</button>
 
             </div>
             <div class="flex justify-center mt-2">
@@ -63,6 +63,7 @@
 
 
 
+      <script type="module" src="register.js"></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
