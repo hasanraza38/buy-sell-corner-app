@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    --white :#FFFFFF;
+}
+
+html,body{
+    background-color: var(--white);
+    height: 100%;
+    width: 100%;
+}
+
+input{
+    background-color: var(--white);
+
+}
+/* #wrapper{ 
+   
+    /* overflow: hidden; */
+  /* }  */
+
+
+
+    /* #login-div{
+        overflow: hidden;
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+    
+  }  */
+
